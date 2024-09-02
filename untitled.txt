@@ -1,0 +1,182 @@
+Explain the key features of Python that make it a popular choice for programming?
+
+Answer:- Python is a interpreted language which was developed by Guido van Rossum in the year 1991. The base motive of developing Python was to make the code more readable and emphasize
+         the expression of code lines in a narrow sentence.
+         some of the features that makes the python programming language stand-out from other languages are:
+         
+         1) Easy to understand :- The simplicity of the code in python makes it more readable as the maximum of the keywords and operators usally uses alphabatical combinations.
+         
+         2) Interpreted language :- It means the code of python programming is executed in a line basis, means the first line after being executed, then the second line will get
+                                    executed.
+         
+         3) Huge Library :- Due to the versatility of the language which means, the feature of library support makes it a more versatile language which makes it more dynamic than
+                            other languages.
+         
+         4) Object oriented :- As python supports object oriented programming, means python comprises of features that allows the code to be reusable, which makes it stand out of
+                               crowd.
+                               
+Describe the role of predefined keywords in Python and provide examples of how they are used in a program?
+
+Answer:- In python, keywords are the reserved words that are used by the interpreter and the programmer too to interact with each other with the help of which the computers fetch
+         information on the basis of commands and the programmer can command on the basis of keywords with addition to expressions, statements and etc.
+         keywords are reserved words whose meaning cannot be changed.
+         
+         Some examples are:-
+         
+         1) if, elif, and else: These keywords are used for conditional statements. They allow you to execute different blocks of code based on whether a condition is true or false.
+         
+         2) for and while: These keywords are used for loops. for is used for iterating over a sequence (like a list or a string), while while is used for executing a block of code
+                           repeatedly as long as a condition remains true.
+         
+         3) def: This keyword is used to define a function.
+
+Compare and contrast mutable and immutable objects in Python with examples?
+
+Answer:- Mutable objects: In laymann terms, mutable simply means the source or the body that can be changed.
+         similarly, in python the mutable object means the object whose values could be changed after assigning values to them.
+         Definition: Mutable objects are those whose state (content) can be modified after creation. When you change the value of a mutable object, it doesn’t create a new object;
+         instead, it modifies the existing one.
+         
+         example:-Lists: Lists are mutable. You can add, remove, or modify elements within a list.
+                  Dictionaries: Dictionaries are also mutable. You can add, update, or delete key-value pairs.
+          
+         Immutable objects:- Definition: Immutable objects cannot be changed after creation. When you modify an immutable object, it creates a new object with the updated value.
+         
+         Examples of Immutable Objects: Strings: Strings are immutable. If you change a string, it creates a new strin
+                                        Tuples: Tuples are also immutable. Once you create a tuple, you cannot modify its elements.
+                                        
+Discuss the different types of operators in Python and provide examples of how they are used?
+
+Answer:- Arithmetic Operators:
+            These operators perform basic arithmetic operations.
+            +: Addition
+            -: Subtraction
+            *: Multiplication
+            /: Division (returns a float)
+            //: Floor division (returns an integer)
+            %: Modulo (remainder after division)
+            **: Exponentiation
+            
+         Comparison Operators:
+            These operators compare values and return Boolean results (True or False).
+            ==: Equal to
+            !=: Not equal to
+            <: Less than
+            >: Greater than
+            <=: Less than or equal to
+            >=: Greater than or equal to
+            
+         Assignment Operators:
+            These operators assign values to variables.
+            =: Assigns a value
+            +=, -=, *=, /=, %=, **=: Perform the operation and update the variable
+            
+         Logical Operators:
+            These operators combine Boolean values.
+            and: Returns True if both operands are True
+            or: Returns True if at least one operand is True
+            not: Negates the value (changes True to False and vice versa)
+            
+         Membership Operators:
+            These operators check if a value is present in a sequence (like a list, tuple, or string).
+            in: Returns True if the value is in the sequence
+            not in: Returns True if the value is NOT in the sequence
+            
+         Identity Operators:
+            These operators compare the memory location of two objects.
+            is: Returns True if both operands refer to the same object
+            is not: Returns True if both operands refer to different objects
+            
+            
+            These are the majorly used operators which have maximum usecases, Though there are operators like bitwise which do not have major usecases.
+            
+Explain the concept of type casting in Python with examples?
+
+Answer:- Type casting (also known as type conversion) in Python refers to changing the data type of a value from one type to another. It allows you to manipulate and combine different
+         types of data effectively. 
+         some common type casting techniques along with examples are:
+         Implicit Type Casting: Python automatically performs implicit type casting when you mix different data types in an expression. It promotes the data type to a more general one to
+         avoid loss of information.
+         example:- x = 10  
+                   y = 3.5 
+                   result = x + y  
+                   print(result) 
+
+         Explicit Type Casting: Explicit type casting involves manually converting a value from one type to another using built-in functions.
+        Common functions for explicit type casting:
+        int(): Converts to an integer.
+        float(): Converts to a float.
+        str(): Converts to a string.
+        bool(): Converts to a Boolean.
+        
+        Type Casting Between Data Types: Sometimes you need to explicitly convert between specific data types, especially when reading input or working with external data.
+        
+How do conditional statements work in Python? Illustrate with examples?
+
+Answer:- Conditional statements in Python allow you to make decisions within your code based on certain conditions. They’re like the “if-then” rules of programming.
+         Let's understand with an example:-
+      
+         1) The if Statement:
+                 The basic structure of an if statement looks like this;
+      
+                  if condition:
+                    # Code to execute if the condition is true
+            
+                  If the condition evaluates to True, the indented code block under the if statement will be executed. Otherwise, it’s skipped.
+
+         2) The if-else Statement:
+                 When you want to handle both the true and false cases, you can use an else block:
+                 
+                 if condition:
+                    # Code to execute if the condition is true
+               
+                 else:
+                    # Code to execute if the condition is false
+                    
+         3) The if-elif-else Statement:
+                For more complex scenarios, you can use elif (short for “else if”) to check multiple conditions:
+                
+                if condition1:
+                        # Code for condition1
+                elif condition2:
+                        # Code for condition2
+                else:
+                        # Code if none of the conditions match
+       
+       4) Nested if Statements:
+                You can nest conditional statements within each other:
+                
+                is_raining = True
+                umbrella = True
+                if is_raining:
+                    if umbrella:
+                        print("Take the umbrella.")
+                    else:
+                        print("Get wet!")
+                else:
+                    print("Enjoy the weather.")
+
+
+Describe the different types of loops in Python and their use cases with examples?
+
+Answer:- loops are defined as the statements which keeps on iterating till the conditions are met. To be specific, there are three different types of loops with different usecases,
+         that are:-
+         
+         1) While loop:- The while loop executes a set of statements repeatedly as long as a given condition remains true. It’s useful when you don’t know in advance how many iterations
+                         are needed.
+                   
+                            while condition:
+                                # Code to execute while the condition is true
+                 
+         2) for Loop:- The for loop iterates over a given sequence (like a list, tuple, or string). It’s useful when you know the number of iterations in advance.
+                       
+                            for variable in sequence:
+                                # Code to execute for each value of 'variable'
+       
+         3) Nested Loops:You can combine loops within loops (nested loops) to handle more complex scenarios.Example (nested for loop to create a multiplication table):
+                            for i in range(1, 6):
+                                for j in range(1, 6):
+                                    print(i * j, end="\t")
+                                print()  # Move to the next row
+                                
+                                
